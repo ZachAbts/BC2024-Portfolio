@@ -1,6 +1,6 @@
 h2 {
     text-align:center;
-    color:white;
+    color:black;
     font-family:Carrois Gothic SC;
 }
 button {
@@ -25,10 +25,15 @@ button:hover {
     background-color:red;
 }
 body {
-    background-color: #701711;
+    background-color: white;
 }
 p {
     text-align:center;
-    color:white;
+    color:black;
     font-family:Carrois Gothic SC;
+}
+.disc {
+    width: 50px;
+    position:absolute;
+    right:1px;
 }
