@@ -1,16 +1,19 @@
-h1 {
+h2 {
     text-align:center;
+    color:white;
+    font-family:Carrois Gothic SC;
 }
 button {
 font-size: 16px;
-padding: 10px 20px;
-margin: 10px;
+padding: 10px 10px;
+margin: 5px;
 background-color: black;
 color: white;
 border: none;
 border-radius: 5px;
 cursor: pointer;
 transition: background-color 0.3s ease;
+font-family:Carrois Gothic SC;
 }
 
 .button{
@@ -20,4 +23,12 @@ align-items: center;
 }
 button:hover {
     background-color:red;
+}
+body {
+    background-color: #701711;
+}
+p {
+    text-align:center;
+    color:white;
+    font-family:Carrois Gothic SC;
 }
