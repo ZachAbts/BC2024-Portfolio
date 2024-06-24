@@ -24,16 +24,25 @@ align-items: center;
 button:hover {
     background-color:red;
 }
-body {
-    background-color: white;
-}
 p {
-    text-align:center;
     color:black;
     font-family:Carrois Gothic SC;
 }
 .disc {
     width: 50px;
     position:absolute;
-    right:1px;
+    right:700px;
+    margin-top:4%;
+}
+.one {
+    width:300px;
+}
+.two {
+    width:300px;
+}
+.three {
+    width:300px;
+}
+body {
+    background-repeat: no-repeat; 
 }
