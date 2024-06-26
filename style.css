@@ -46,3 +46,31 @@ p {
 body {
     background-repeat: no-repeat; 
 }
+.resume {
+    text-align:center;
+    border-style:solid;
+}
+.edu {
+    color:red;
+}
+.xp {
+    color:red;
+}
+.class {
+    color:red;
+}
+.comp {
+    color:red;
+}
+.vol {
+    color:red;
+}
+.aw {
+    color:red;
+}
+.extra {
+    color:red;
+}
+.skill {
+    color:red;
+}
