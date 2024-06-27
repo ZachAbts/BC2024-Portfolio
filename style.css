@@ -27,12 +27,14 @@ button:hover {
 p {
     color:black;
     font-family:Carrois Gothic SC;
+    text-align:center;
+    padding:10px;
 }
 .disc {
     width: 50px;
-    position:absolute;
-    right:700px;
-    margin-top:4%;
+    position: absolute;
+    right:750px;
+    margin-bottom:3%;
 }
 .one {
     width:300px;
@@ -82,4 +84,48 @@ body {
 }
 .me2 {
    border:solid;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.insta {
+    width: 59px;
+    position: fixed;
+    right:750px;
+    margin-bottom:3%;
+}
+.git {
+   float:right;
+   width:200px;
+   border:solid;
+}
+.game {
+    float:left;
+    width:200px;
+    border:solid;
+}
+.cat {
+    width:400px;
+    border:solid;
+    border-color:red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+    border:solid;
+}
+.gmail {
+    width: 50px;
+    right:700px;
+    position:absolute;
+    left:540;
+    margin-bottom:10px;
+}
+.hobby {
+    border:solid;
+    border-color:red;
 }
