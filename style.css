@@ -1,6 +1,6 @@
 h2 {
     text-align:center;
-    color:black;
+    color:white;
     font-family:Carrois Gothic SC;
 }
 button {
@@ -25,7 +25,7 @@ button:hover {
     background-color:red;
 }
 p {
-    color:black;
+    color:white;
     font-family:Carrois Gothic SC;
     text-align:center;
     padding:10px;
@@ -46,35 +46,59 @@ p {
     width:300px;
 }
 body {
-    background-repeat: no-repeat; 
+    background-color:red; 
 }
 .resume {
     text-align:center;
     border-style:solid;
 }
 .edu {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .xp {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .class {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .comp {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .vol {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .aw {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .extra {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .skill {
-    color:red;
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
 }
 .me {
     display: block;
@@ -84,6 +108,8 @@ body {
 }
 .me2 {
    border:solid;
+   border-color:black;
+   margin-bottom: -20px; 
 }
 img {
     display: block;
@@ -110,7 +136,7 @@ img {
 .cat {
     width:400px;
     border:solid;
-    border-color:red;
+    border-color:black;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -120,12 +146,48 @@ img {
 }
 .gmail {
     width: 50px;
-    right:700px;
+    right:780px;
     position:absolute;
     left:540;
     margin-bottom:10px;
 }
-.hobby {
+.name {
+    color:white;
     border:solid;
-    border-color:red;
+    border-color:black;
+    background-color:black;
+}
+.back {
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
+}
+.projectone {
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
+}
+.projecttwo {
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
+}
+.projectthree {
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
+}
+.hobby {
+    color:white;
+    border:solid;
+    border-color:black;
+    background-color:black;
+}
+.hob {
+    border:solid;
+    border-color:black;
 }
