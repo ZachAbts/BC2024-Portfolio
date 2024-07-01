@@ -33,7 +33,7 @@ p {
 .disc {
     width: 50px;
     position: absolute;
-    right:750px;
+    right:760px;
     margin-bottom:3%;
 }
 .one {
@@ -49,56 +49,103 @@ body {
     background-color:red; 
 }
 .resume {
-    text-align:center;
-    border-style:solid;
+    text-align:center;   
 }
 .edu {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .xp {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .class {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .comp {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .vol {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
 }
 .aw {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 600px; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */     
 }
 .extra {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .skill {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .me {
     display: block;
@@ -118,10 +165,10 @@ img {
     width: 50%;
 }
 .insta {
-    width: 59px;
-    position: fixed;
-    right:750px;
-    margin-bottom:3%;
+    width: 55px;
+    position: absolute;
+    right:760px;
+    margin-bottom:4%;
 }
 .git {
    float:right;
@@ -148,14 +195,20 @@ img {
     width: 50px;
     right:780px;
     position:absolute;
-    left:540;
-    margin-bottom:10px;
+    left:590;
+    margin-bottom:5px;
 }
 .name {
     color:white;
     border:solid;
     border-color:black;
     background-color:black;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+          padding-top: 20px; /* This creates some space between the element and the border. */
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 600px; /* Change this to whatever width you want. */
+      border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */    
 }
 .back {
     color:white;
@@ -185,9 +238,14 @@ img {
     color:white;
     border:solid;
     border-color:black;
-    background-color:black;
 }
-.hob {
+.like {
+    color:white;
     border:solid;
     border-color:black;
+    background-color:black;
+ 
+}
+.hob {
+    background-color:black;
 }
