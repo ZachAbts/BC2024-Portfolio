@@ -264,3 +264,11 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+.secret {
+  background-color:red;
+  color:red; 
+}
+.thank {
+    font-size:80px;
+
+}
