@@ -249,3 +249,18 @@ img {
 .hob {
     background-color:black;
 }
+.git2 {
+    font-size:x-small;
+    float:right;
+
+}
+.game2 {
+    font-size:x-small;
+    float:left;
+}
+.cat2 {
+    font-size:small;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
